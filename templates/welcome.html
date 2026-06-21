@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>Mailer</title>
+  </head>
+  <body>
+    <h1>Witaj, {{ name }}</h1>
+    <form method="post" action="/subscribe">
+      <input type="email" name="email" placeholder="twój@adres.pl" required />
+      <button type="submit">Zapisz</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+Witaj, {{ name }}
+
+Dziękujemy za zainteresowanie naszym newsletterem.
+Aby potwierdzić subskrypcję odwiedź: {{ link }}
